@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeAdevil Office</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="#"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100087445410570">Facebook</a></li>
+                    <li><a href="">Instragram</a></li>
+                    <li><a href="https://www.youtube.com/@DreamworksLiveChannel">Youtube</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+        <h1>BeAdevil Office</h1>
+        <p>Welcome welcome to our website We're not the devil, 
+            we just do it, no wait for anything!</p>
+            <a href=""class="hero-btn">Visit Us to know More</a>
+    </div>
+    </section>
+
+
+
+
+</section>
+
+
+<!---- FAcilities ----->
+<section class="facilities">
+    <h1>Service</h1>
+    <p>Showbiz,  Branding,  etc.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/showbiz.jpg">
+            <h3>Showbiz</h3>
+            <p>งานศิลปะการแสดง เช่น หนัง, ละคร, ดนตรี, การแสดงสด และอื่น ๆ อาจมีการนำมาใช้เพื่ออธิบายเรื่องราวในวงการนั้น ๆ หรือกิจกรรมที่เกิดขึ้นในวงการดังกล่าว ซึ่งอาจรวมถึงข่าวสาร, การพูดคุย, วงจรการแสดง, ความสำคัญของชื่อเสียง, และเรื่องราวที่เกี่ยวข้องอื่น ๆ ในวงการบันเทิง</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/branding.jpg">
+            <h3>Branding</h3>
+            <p> การสร้างแบรนด์มุ่งเน้นให้ผู้บริโภครับรู้คุณค่าและความแตกต่างของแบรนด์จากคู่แข่ง และสร้างความจำเป็นและความต้องการที่จะเลือกใช้แบรนด์นั้นๆ ในตลาดแข่งขัน</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/background.jpg">
+            <h3>BeAdevil Team</h3>
+        </div>
+    </div>
+
+</section>
+<!---- campus ---->
+
+<section class="campus">
+    <h1>Dream Work Live Channel</h1>
+    <p>ความฝันครั้งใหม่ที่กำลังจะเริ่มขึ้น...
+        และนี่คือเหล่ารายการของ Dreamworks Live Channel </p>
+    
+    <div class="row">
+        <div class="campus-col">
+            <img src="img/workbar.jpg">
+            <div class="layer">
+                <h3>WORKBAR</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/concert.jpg">
+            <div class="layer2">
+                <h3>CONCERT FAN FEST</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/payya.jpg">
+            <div class="layer3">
+                <h3>#แก๊งป้ายยา</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/aromatalk.jpg">
+            <div class="layer4">
+                <h3>AROMA TALK</h3>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!-- call To action -->
+<section class="cta">
+    <h1>ติดต่อบริการสอบถามเพิ่มเติมได้ที่ Email</h1>
+    <a href="contact.html" class="hero-btn">ติดต่อได้ที่นี้</a>
+</section>
+
+
+<!-- Footer -->
+<section class="footer">
+    <a href="about.html" class="hero-btn red-btn">About Us</a>
+    <p>BeAdevil Office Hope to see you work with us Thankyou</p>
+    <div class="icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-line"></i>
+    <i class="fa-brands fa-tiktok"></i>
+</div>
+<p>Made with<i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScropt For Toggle Menu-->
+<script>   
+
+var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right ="0";
+}
+    function hideMenu (){
+    navLinks.style.right = "-200px";
+}
+</script>
+
+
+</body>
+</html>
